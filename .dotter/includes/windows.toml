@@ -2,5 +2,7 @@
 "nushell/config.nu" = "~/AppData/Roaming/nushell/config.nu"
 "nushell/env.nu" = "~/AppData/Roaming/nushell/env.nu"
 "nushell/keybindings.nu" = "~/.config/nushell/keybindings.nu"
+[powershell.files]
+"powershell/Microsoft.PowerShell_profile.ps1" = "~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
 [stranslate.files]
 "stranslate/stranslate.json" = "~/AppData/Local/STranslate/stranslate.json"
