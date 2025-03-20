@@ -1,0 +1,4 @@
+[nushell.files]
+"nushell/config.nu" = "~/AppData/Roaming/nushell/config.nu"
+"nushell/env.nu" = "~/AppData/Roaming/nushell/env.nu"
+"nushell/keybindings.nu" = "~/.config/nushell/keybindings.nu"
