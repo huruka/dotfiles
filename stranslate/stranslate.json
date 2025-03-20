@@ -1,0 +1,288 @@
+{
+  "AppLanguage": 0,
+  "IsStartup": false,
+  "NeedAdministrator": false,
+  "AutoCheckUpdate": true,
+  "DownloadProxy": 1,
+  "HistorySize": 100,
+  "AutoScale": 0.8,
+  "ThemeType": 0,
+  "IsFollowMouse": false,
+  "CloseUIOcrRetTranslate": false,
+  "IsOcrAutoCopyText": false,
+  "IsScreenshotOcrAutoCopyText": false,
+  "IsAdjustContentTranslate": false,
+  "LineBreakHandler": 0,
+  "LineBreakOCRHandler": 0,
+  "DoubleTapTrayFunc": 0,
+  "SourceLang": 0,
+  "TargetLang": 0,
+  "Position": "",
+  "CustomFont": "LXGW WenKai",
+  "IsKeepTopmostAfterMousehook": false,
+  "IsShowPreference": false,
+  "IsShowConfigureService": false,
+  "IsShowMousehook": false,
+  "IsShowIncrementalTranslation": false,
+  "IsShowScreenshot": false,
+  "IsShowOCR": false,
+  "IsShowSilentOCR": false,
+  "IsShowClipboardMonitor": false,
+  "IsShowQRCode": false,
+  "IsShowHistory": false,
+  "WordPickingInterval": 100,
+  "IsHideOnStart": false,
+  "IsDisableNoticeOnStart": false,
+  "ShowCopyOnHeader": false,
+  "IsCaretLast": false,
+  "ProxyMethod": 1,
+  "ProxyIp": "",
+  "ProxyPort": 8089,
+  "IsProxyAuthentication": false,
+  "ProxyUsername": "",
+  "ProxyPassword": "",
+  "CopyResultAfterTranslateIndex": 0,
+  "IncrementalTranslation": false,
+  "IsTriggerShowHide": false,
+  "IsShowMainPlaceholder": false,
+  "ShowAuxiliaryLine": true,
+  "BackupType": 0,
+  "WebDavUrl": "",
+  "WebDavUsername": "",
+  "WebDavPassword": "",
+  "ChangedLang2Execute": false,
+  "OcrChangedLang2Execute": false,
+  "UseFormsCopy": false,
+  "ExternalCall": false,
+  "ExternalCallPort": 50020,
+  "OcrViewHeight": 400.0,
+  "OcrViewWidth": 1000.0,
+  "DetectType": 0,
+  "DisableGlobalHotkeys": false,
+  "MainViewMaxHeight": 840.0,
+  "MainViewWidth": 460.0,
+  "InputViewMaxHeight": 200.0,
+  "InputViewMinHeight": 70.0,
+  "MainViewShadow": false,
+  "IsPromptToggleVisible": true,
+  "IsShowSnakeCopyBtn": false,
+  "IsShowSmallHumpCopyBtn": false,
+  "IsShowLargeHumpCopyBtn": false,
+  "IsShowTranslateBackBtn": false,
+  "IgnoreHotkeysOnFullscreen": false,
+  "StayMainViewWhenLoseFocus": false,
+  "IsShowClose": false,
+  "MainOcrLang": 0,
+  "ShowMainOcrLang": false,
+  "HotkeyCopySuccessToast": true,
+  "OftenUsedLang": "",
+  "UseCacheLocation": false,
+  "ShowMinimalBtn": false,
+  "GlobalFontSize": -2,
+  "AutoTranslate": false,
+  "IsShowAutoTranslate": false,
+  "AnimationSpeed": 200,
+  "IsHideLangWhenOnlyShowOutput": true,
+  "IsShowOnlyShowRet": false,
+  "IsOnlyShowRet": false,
+  "OcrImageQuality": 1,
+  "SourceLangIfAuto": 4,
+  "TargetLangIfSourceZh": 4,
+  "TargetLangIfSourceNotZh": 1,
+  "UsePasteOutput": false,
+  "HttpTimeout": 10,
+  "ReplaceProp": {
+    "ActiveService": null,
+    "AutoScale": 0.8,
+    "DetectType": 0,
+    "SourceLang": 0,
+    "TargetLang": 0,
+    "SourceLangIfAuto": 4,
+    "TargetLangIfSourceZh": 4,
+    "TargetLangIfSourceNotZh": 1
+  },
+  "Hotkeys": {
+    "InputTranslate": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "CrosswordTranslate": {
+      "Modifiers": 2,
+      "Key": 112,
+      "Text": "Ctrl + F1",
+      "Conflict": false
+    },
+    "ScreenShotTranslate": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "OpenMainWindow": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "MousehookTranslate": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "OCR": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "SilentOCR": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "SilentTTS": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "ClipboardMonitor": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    },
+    "ReplaceTranslate": {
+      "Modifiers": 0,
+      "Key": 0,
+      "Text": "",
+      "Conflict": false
+    }
+  },
+  "Services": [
+    {
+      "STranslateMode": 1,
+      "TestCancelCommand": {},
+      "Identify": "9acb127f-b0b0-44ea-b49f-bc06d8c3a233",
+      "Type": 11,
+      "IsEnabled": false,
+      "Name": "STranslate",
+      "Icon": 0,
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    },
+    {
+      "TestCancelCommand": {},
+      "Identify": "9812694a-5088-4e62-812a-a5547bb07a1b",
+      "Type": 23,
+      "IsEnabled": true,
+      "Name": "Microsoft",
+      "Icon": 13,
+      "Url": "https://st-ms.deno.dev/translate",
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    },
+    {
+      "TestCancelCommand": {},
+      "Identify": "3766e67b-bd74-4867-94b1-2510b823a56f",
+      "Type": 24,
+      "IsEnabled": true,
+      "Name": "Yandex",
+      "Icon": 30,
+      "Url": "https://yandex.deno.dev/translate",
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    },
+    {
+      "TestCancelCommand": {},
+      "Identify": "e82f4d27-7767-4b42-bc3e-0e40248883fa",
+      "Type": 22,
+      "IsEnabled": true,
+      "Name": "Google",
+      "Icon": 3,
+      "Url": "https://googlet.deno.dev/translate",
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    },
+    {
+      "TestCancelCommand": {},
+      "Identify": "f38e60e3-929b-44d4-9554-478eccecf5a7",
+      "Type": 20,
+      "IsEnabled": true,
+      "Name": "金山词霸",
+      "Icon": 4,
+      "Url": "http://dict-co.iciba.com/api/dictionary.php",
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    },
+    {
+      "TestCommand": {
+        "ExecutionTask": null,
+        "CanBeCanceled": false,
+        "IsCancellationRequested": false,
+        "IsRunning": false
+      },
+      "TestCancelCommand": {},
+      "Identify": "cce19ec9-1d66-4bb7-95eb-e0d9ad7a48d8",
+      "Type": 21,
+      "IsEnabled": true,
+      "Name": "必应词典",
+      "Icon": 6,
+      "Url": "https://cn.bing.com",
+      "AutoExecute": true,
+      "AutoExecuteTranslateBack": false
+    }
+  ],
+  "OCRList": [
+    {
+      "WeChatPath": "C:\\Program Files\\Tencent\\WeChat",
+      "RemoveMmmojoDllCommand": {},
+      "Identify": "249e17cf-2fbf-4e7b-aa82-b80ba32c33e5",
+      "Type": 6,
+      "IsEnabled": false,
+      "Name": "微信OCR",
+      "Icon": 27
+    },
+    {
+      "DownloadCancelCommand": {},
+      "Identify": "417f63ca-4121-475a-9c89-199a19b27552",
+      "Type": 0,
+      "IsEnabled": false,
+      "Name": "PaddleOCR",
+      "Icon": 21
+    }
+  ],
+  "TTSList": [
+    {
+      "Icon": 6,
+      "Identify": "be19553c-c9f1-4e72-b75c-d5585b664415",
+      "IsEnabled": true,
+      "Name": "EdgeTTS",
+      "Type": 3,
+      "Url": "https://stranslate.zggsong.com",
+      "Voice": 55
+    },
+    {
+      "Icon": 0,
+      "Identify": "d34fd79c-10fc-4ad6-a7b0-e83dab857730",
+      "IsEnabled": false,
+      "Name": "离线TTS",
+      "Type": 1,
+      "Rate": 1,
+      "GetSystemInfoCommand": {}
+    },
+    {
+      "Icon": 26,
+      "Identify": "176cd027-955d-4cbb-8e63-c2eaf41f0804",
+      "IsEnabled": false,
+      "Name": "Lingva",
+      "Type": 2,
+      "Url": "https://lingva.zggsong.com"
+    }
+  ],
+  "VocabularyBookList": null
+}
