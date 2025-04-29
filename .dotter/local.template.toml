@@ -1,0 +1,11 @@
+includes = [".dotter/<system>.toml"]
+
+packages = [
+    "git",
+]
+
+#[files]
+
+[variables]
+install_pkgs = false
+update_pkgs = false
