@@ -6,3 +6,5 @@
 "powershell/Microsoft.PowerShell_profile.ps1" = "~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
 [stranslate.files]
 "stranslate/stranslate.json" = "~/AppData/Local/STranslate/stranslate.json"
+[keepass.files]
+"keepass/KeePass.config.enforced.xml" = "~/scoop/apps/keepass/current/KeePass.config.enforced.xml"
