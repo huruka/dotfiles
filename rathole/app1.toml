@@ -1,0 +1,39 @@
+[server]
+bind_addr = "0.0.0.0:7001" # `7001` 配置了服务端监听客户端连接的端口
+
+[server.services.mlo]
+token = "rurutia" # 用于验证的 token
+bind_addr = "0.0.0.0:21030" # `21030` 配置了将 `mlo` 暴露给互联网的端口
+
+[server.services.my_nas_ssh]
+token = "rurutiassh"
+bind_addr = "0.0.0.0:21022"
+
+[server.services.immich]
+token = "immichphoto"
+bind_addr = "0.0.0.0:21083"
+
+[server.services.twpkm]
+token = "rutwpkm"
+bind_addr = "0.0.0.0:21061"
+
+[server.services.twwo]
+token = "rutwwo" 
+bind_addr = "0.0.0.0:21062"
+
+[server.services.rsshub]
+token = "rsshub"
+bind_addr = "0.0.0.0:21112"
+
+[server.services.miniflux]
+token = "miniflux"
+bind_addr = "0.0.0.0:21113"
+
+[server.services.influxdb]
+token = "influx"
+bind_addr = "0.0.0.0:21121"
+
+[server.services.baikal]
+token = "baikal"
+bind_addr = "0.0.0.0:21081"
+

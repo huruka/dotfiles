@@ -1,0 +1,3 @@
+[rathole.files]
+"rathole/app1.toml" = "~/.local/etc/rathole/app1.toml"
+"rathole/rathole@.service" = "~/.config/systemd/user/rathole@.service"
