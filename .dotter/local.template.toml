@@ -1,4 +1,4 @@
-includes = [".dotter/<system>.toml"]
+includes = [".dotter/includes/<system>.toml"]
 
 packages = [
     "git",
