@@ -8,3 +8,5 @@
 "stranslate/stranslate.json" = "~/AppData/Local/STranslate/stranslate.json"
 [keepass.files]
 "keepass/KeePass.config.enforced.xml" = "~/scoop/apps/keepass/current/KeePass.config.enforced.xml"
+[git.files]
+"git/gitconfig" = "~/.gitconfig"
