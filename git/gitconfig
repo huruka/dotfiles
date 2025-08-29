@@ -4,6 +4,7 @@
 [https]
 	proxy = socks5://127.0.0.1:10808
 [http]
+    sslverify = false
 	proxy = socks5://127.0.0.1:10808
 [credential]
 	helper = store
