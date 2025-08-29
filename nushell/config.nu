@@ -219,10 +219,10 @@ $env.config = {
         }
     }
 
-    filesize: {
-        unit: metric
-        precision: 1
-    }
+    # filesize: {
+    #     unit: metric
+    #     precision: 1
+    # }
 
     cursor_shape: {
         emacs: line # block, underscore, line, blink_block, blink_underscore, blink_line, inherit to skip setting cursor shape (line is the default)
@@ -310,9 +310,9 @@ $env.config = {
 ###[ Alias ]####################################################################
 
 def --env setproxy [] {
-  $env.HTTP_PROXY = 'http://127.0.0.1:10809'
-  $env.HTTPS_PROXY = 'http://127.0.0.1:10809'
-#   $env.ALL_PROXY = 'socks5://127.0.0.1:10809'
+  $env.HTTP_PROXY = 'http://127.0.0.1:10808'
+  $env.HTTPS_PROXY = 'http://127.0.0.1:10808'
+#   $env.ALL_PROXY = 'socks5://127.0.0.1:10808'
   curl ipinfo.io
   print "\nProxy is set."
 }
