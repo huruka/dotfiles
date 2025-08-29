@@ -1,0 +1,102 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings":
+    [
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "win+`"
+        }
+    ],
+    "newTabMenu":
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles":
+    {
+        "defaults":
+        {
+            "colorScheme": "Gruvbox Dark",
+            "font":
+            {
+                "face": "\u7b49\u8ddd\u66f4\u7eb1\u9ed1\u4f53 SC",
+                "size": 12
+            }
+        },
+        "list":
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "closeOnExit": "graceful",
+                "commandline": "%SCOOP%\\apps\\nu\\current\\nu.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "NuShell",
+                "padding": "5, 5, 20, 25",
+                "snapOnInput": true,
+                "startingDirectory": ".",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes":
+    [
+        {
+            "background": "#1E1E1E",
+            "black": "#1E1E1E",
+            "blue": "#377375",
+            "brightBlack": "#7F7061",
+            "brightBlue": "#719586",
+            "brightCyan": "#7DB669",
+            "brightGreen": "#AAB01E",
+            "brightPurple": "#C77089",
+            "brightRed": "#F73028",
+            "brightWhite": "#E6D4A3",
+            "brightYellow": "#F7B125",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#578E57",
+            "foreground": "#E6D4A3",
+            "green": "#868715",
+            "name": "Gruvbox Dark",
+            "purple": "#A04B73",
+            "red": "#BE0F17",
+            "selectionBackground": "#FFFFFF",
+            "white": "#978771",
+            "yellow": "#CC881A"
+        }
+    ],
+    "themes": []
+}
