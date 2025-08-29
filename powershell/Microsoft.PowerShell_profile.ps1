@@ -12,6 +12,9 @@ Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 Set-PSReadLineKeyHandler -Key "Shift+Spacebar" -Function MenuComplete
 
+# Atuin
+atuin init powershell | Out-String | Invoke-Expression
+
 #------------------------------- Import Modules END ----------------------------------
 
 
@@ -27,5 +30,5 @@ Set-PSReadLineKeyHandler -Key "Shift+Spacebar" -Function MenuComplete
 
 
 #------------------------------- Alias BEGIN -------------------------------------------
-function prb { pdm run python $home/Codes/01-Developing/016-beandas_by_pdm/beandas/beandas/cli.py $args}
+function gcp {Get-Command $args | Select-Object Path}
 #------------------------------- Alias END ---------------------------------------------
