@@ -9,6 +9,6 @@
 [keepass.files]
 "keepass/KeePass.config.enforced.xml" = "~/scoop/apps/keepass/current/KeePass.config.enforced.xml"
 [git.files]
-"git/gitconfig" = "~/.gitconfig"
+"git/gitconfig_win" = "~/.gitconfig"
 [vscode.files]
 "vscode/snippets/beancount.json" = "~/AppData/Roaming/Code/User/snippets/beancount.json"
