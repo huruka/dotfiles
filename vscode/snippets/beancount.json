@@ -1,0 +1,62 @@
+{
+  "balance": {
+    "prefix": "balance custom",
+    "body": "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} balance ${3:Account} ${4:Balance Amount}$0",
+    "description": "账户余额断言"
+  },
+  "commodity": {
+    "prefix": "commodity custom",
+    "body": [
+      "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} commodity ${3:commodity id}",
+      "\tname: \"$4\"",
+      "\tclass: \"${5:fund}\"\n$0"
+    ],
+    "description": "定义Commodity"
+  },
+  "transaction directive": {
+    "prefix": "txn custom",
+    "body": "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} * $0  \n\t",
+    "description": "交易记录头"
+  },
+  "transaction with time": {
+    "prefix": "ttxn",
+    "body": [
+      "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} * $0",
+      "\ttime: \"$3:$4\"\n\t"
+    ],
+    "description": "带时间交易记录头"
+  },
+  "lingqiantong gains": {
+    "prefix": "wxlqtsy",
+    "body": [
+      "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} * \"微信\" \"零钱通收益\" #2-Regular",
+      "\ttime: \"23:59\"",
+      "\tAssets:Current:Account:Wechat   $3 CNY",
+      "\tIncome:Finance:Dividend\n$0"
+    ],
+    "description": "微信零钱通收益"
+  },
+  "snippet today": {
+    "prefix": "sday",
+    "body": "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} $0",
+    "description": "默认当天日期"
+  },
+  "metadata time": {
+    "prefix": "mtm",
+    "body": "time: \"$1:$2\"$0",
+    "description": "insert MetaData Time"
+  },
+  "metadata memo": {
+    "prefix": "mmm",
+    "body": "memo: \"$1\"$0",
+    "description": "insert MetaData Memo"
+  },
+  "padbal": {
+    "prefix": "padbal",
+    "description": "",
+    "body": [
+      "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE}$0 pad ${3:Pad_Account} ${4:From_Account}",
+      "$CURRENT_YEAR-${1:$CURRENT_MONTH}-${2:$CURRENT_DATE} balance ${3:Pad_Account}        ${5:0.00} CNY"
+    ]
+  }
+}
